@@ -1,0 +1,659 @@
+body,
+html {
+  width: 1920px;
+  box-sizing: content-box;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
+}
+.header {
+  background: #f0e9e9;
+
+  height: 660px;
+}
+/* Navbar */
+nav {
+  box-shadow: 9px solid #000;
+}
+.navbar {
+  display: flex;
+  position: relative;
+  box-shadow: 9px solid #000;
+  border: 1px solid #000;
+}
+.navbar-nav {
+  margin-left: 59px;
+  position: relative;
+}
+.navbar-collapse {
+  padding: 12px 0px;
+}
+.navbar-brand {
+  color: #004743;
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar-brand span {
+  color: #fbd103;
+}
+.nav-item {
+  color: var(--dark-grey-fashion, #323232);
+  margin-left: 24px;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Akhir Navbar */
+
+/* Search Button */
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+}
+
+.input-icon {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+/* Finish Search */
+
+/* Notif New */
+.winter {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.winter:hover {
+  background: red;
+}
+
+.winter .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+/* Cart Shop Icon */
+.icon-cart {
+  background-image: url(../images/cart.png);
+  background-size: cover;
+  width: 22.63px;
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  margin-left: 44px;
+}
+.icon-cart .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: #fbd103;
+  color: white;
+}
+.badge {
+  color: var(--dark-grey-fashion, #323232);
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.icon-heart {
+  background-image: url(../images/Heart.png);
+}
+.icon-profile {
+  background-image: url(../images/Add-User.png);
+}
+/* akhir icon */
+
+/* Header */
+.header-text {
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.625px;
+  opacity: 0.5;
+  color: rgba(50, 50, 50, 1);
+  margin-top: 200px;
+}
+
+.header-sidetext {
+  color: var(--dark-grey-fashion, rgba(50, 50, 50, 1));
+  font-family: Ubuntu;
+  font-size: 70px;
+  margin-top: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+button {
+  background-color: #004743;
+  color: #fff;
+  border-radius: 10em;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+}
+
+button:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 black;
+}
+
+button:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 black;
+}
+.container-header {
+  padding: 0px 0px;
+}
+/* Sidebar kanan */
+.bg-images {
+  background-image: url(../images/image\ 4.png);
+  width: 667px;
+  height: 551px;
+  margin-top: 20%;
+  position: relative;
+}
+.image-1 {
+  z-index: 200;
+  width: 223px;
+  height: 659px;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 190px;
+}
+.image-3 {
+  position: absolute;
+  right: 140px;
+}
+.side-left {
+  padding: 0px 0px;
+}
+/* Akhir Sidebar kanan */
+
+/* Header Akhir */
+
+/* Content box images */
+
+.content {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.container-box {
+  width: 1154px;
+  height: 113px;
+  margin: 102px auto;
+}
+.free-ship {
+  width: 20%;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.text-box {
+  font-family: 'poppins';
+}
+.text-1 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.text-2 {
+  font-size: 8px;
+  margin-top: -4px;
+}
+/* Akhir Content box images */
+
+/* Ads Iklan */
+.container-collection {
+  width: 648px;
+  height: 300px;
+  border-radius: 20px;
+  background: radial-gradient(206.03% 76.54% at 96.3% 9%, #6cddff 0%, #58c4e4 100%);
+}
+
+.text-collection {
+  color: #004743;
+  padding: 30px 0px 0px 50px;
+  font-family: Ubuntu;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-collection-paragraf {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 18px 0px 0px 50px;
+}
+.text-collection-paragraf span {
+  color: rgba(0, 71, 67, 1);
+}
+.button-shop-collection {
+  margin: 0px 34px 50px;
+}
+.collection-column-right {
+  margin-right: 12px;
+}
+.collection-column-left {
+  margin-left: 12px;
+}
+.box-collection {
+  position: relative;
+}
+.box-collection img {
+  position: absolute;
+  right: 20px;
+}
+.color-text-right {
+  color: #fbd103 !important ;
+}
+
+.container-baby {
+  width: 1320px;
+  height: 493px;
+  border-radius: 20px;
+  background-image: url('../images/Mask\ Group.png');
+  background-size: contain;
+  position: relative;
+}
+h1 .text-baby {
+  color: var(--dark-grey-fashion, #323232);
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-baby {
+  position: absolute;
+  top: 44px;
+  left: 138px;
+}
+
+.rectangle-sale {
+  background-image: url('../images/Rectangle\ 12.png');
+  width: 424px;
+  height: 187px;
+  fill: #fbd103;
+  position: absolute;
+  top: 154px;
+  left: 193px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.text-sale {
+  width: 221px;
+  height: 128.388px;
+  margin-top: 30px;
+  margin-left: 80px;
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-sale-paragraf {
+  color: #004743;
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 95px;
+  margin-top: -50px;
+}
+.button-baby {
+  position: absolute;
+  top: 371px;
+  left: 295px;
+}
+.baby-image {
+  background-image: url('../images/image\ 10.png');
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 513px;
+  position: absolute;
+  right: 73px;
+}
+.text-cost-sale {
+  color: var(--dark-grey-fashion, #323232);
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 85px;
+}
+/* Akhir Ads Iklan */
+
+/* Cost Sale */
+.radio-inputs {
+  position: relative;
+  margin: 53px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: rgba(251, 209, 3, 1);
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 300px;
+  font-size: 14px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all 0.15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #fff;
+  font-weight: 600;
+}
+/* Akhir Cost Sale */
+/* Card */
+.card {
+  border: #000;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+}
+.card img {
+  background-size: cover;
+}
+.card-title {
+  color: var(--dark-grey-fashion, #323232);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.card-text {
+  color: var(--dark-grey-fashion, #323232);
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-money {
+  color: #74ca4d;
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* icon arrow */
+
+.icon-link {
+  color: #000;
+  margin-left: 45%;
+  margin-top: 56px;
+  gap: 24px;
+  padding: 0px;
+  align-items: center;
+}
+.icon-link-left {
+  margin-right: 20px;
+}
+
+/* Review */
+.container-review {
+  width: 1920px;
+  height: 628px;
+  background-color: #f9f9f9;
+  margin-top: 110px;
+}
+.text-header-review {
+  color: var(--dark-grey-fashion, #323232);
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 74px 0px 0px 0px;
+  margin: 0px;
+}
+
+.text-header-review-paragraf {
+  color: var(--dark-grey-fashion, #323232);
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+  margin-top: 1rem;
+}
+
+.container-image-review {
+  background-image: url('../images/Rectangle\ 25.png');
+  width: 1128px;
+  height: 310px;
+  margin-top: 75px;
+}
+.image-review {
+  position: relative;
+}
+
+.container-image-review .image-container-review {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-size: cover;
+}
+.text-review {
+  margin-top: 45px;
+  margin-left: 28px;
+  margin-bottom: 29px;
+  color: var(--dark-grey-fashion, #323232);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.9%;
+  letter-spacing: 1px;
+}
+
+.text-review-span {
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138.9%;
+  margin-left: 29px;
+}
+
+.icon-link-review {
+  position: absolute;
+  margin-left: 421px;
+  gap: 24px;
+}
+/* Footer */
+.container-footer {
+  width: 1920px;
+  height: 628px;
+  text-align: center;
+  margin-top: 81px;
+}
+.text-footer {
+  margin-top: 32px;
+  color: var(--dark-grey-fashion, #323232);
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-footer-paragraf {
+  color: var(--dark-grey-fashion, #323232);
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 46px;
+}
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #5e4dcd;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #5e4dcd;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input:focus,
+.input:focus-visible {
+  border-color: #3898ec;
+  outline: none;
+}
+
+.container-social-media {
+  margin-top: 58px;
+  gap: 30px;
+}
+
+/* footer */
+.text-header-footer {
+  color: #004743;
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text-footer-fashion {
+  color: var(--dark-grey-fashion, #323232);
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.9%;
+  letter-spacing: 1px;
+}
+h6-header {
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 216.9%;
+}
+.text-reset {
+  text-decoration: none;
+  color: #000;
+  font-family: poppins;
+  font-size: 15px;
+  font-style: normal;
+}
