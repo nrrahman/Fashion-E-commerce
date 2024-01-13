@@ -657,3 +657,8 @@ h6-header {
   font-size: 15px;
   font-style: normal;
 }
+
+.Copyright {
+  background-color: #3898ec;
+  color: white;
+}
